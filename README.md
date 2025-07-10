@@ -73,7 +73,7 @@ pip install opencv-python cvzone numpy websocket-client
 
 - `main.py` – Python + OpenCV script
 - `control.py` – Sends brightness via WebSocket
-- `esp_code.ino` – ESP32 WebSocket + TM1637 code
+- `hand_display.ino` – ESP32 WebSocket + TM1637 code
 ---
 
 ---
