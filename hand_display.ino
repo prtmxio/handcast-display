@@ -24,7 +24,7 @@ void handleWebSocketMessage(void* arg, uint8_t* data, size_t len) {
 
   int brightness = message.toInt();
   brightness = constrain(brightness, 0, 255);
-t
+
   display.showNumberDec(brightness, false);
 
   // display_brightness control
