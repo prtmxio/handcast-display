@@ -60,6 +60,9 @@ pip install opencv-python cvzone numpy websocket-client
 3. Value is mapped to brightness (0–255).
 4. Value sent to ESP32 via WebSocket.
 5. ESP32 shows value on TM1637 and updates its display brightness.
+<p align="center">
+  <img src="res/flow.png" width="350">
+</p>
 
 ## 🚀 Getting Started
 
@@ -68,6 +71,11 @@ pip install opencv-python cvzone numpy websocket-client
 3. Run the Python script
 4. Move your fingers in front of the webcam
 5. Watch the display change!
+
+#### Circuit Diagram : 
+<p align="center">
+  <img src="res/circuit_image.png" width="350">
+</p>
 
 ## 📂 Code
 
